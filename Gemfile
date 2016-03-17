@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
 
+gem 'zurb-foundation', '~> 4.2.2'
+gem 'simple_form', '~> 3.0.0.rc'
 gem 'devise', '4.0.0.rc2'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
 # Use sqlite3 as the database for Active Record

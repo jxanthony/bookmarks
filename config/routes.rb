@@ -1,7 +1,12 @@
 Rails.application.routes.draw do
+  #get 'site/index'
+  root 'site#index'
   devise_for :users
   resources :bookmarks
-  root to: "bookmarks#index"
+
+  #this is old/from previous design
+  #root to: "bookmarks#index"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
